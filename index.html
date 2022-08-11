@@ -1,0 +1,280 @@
+<html>
+
+<head>
+  <title>Torneo - Copa Wolff</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="Files/CSS/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton&effect=neon|fire" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='Files/JS/script.js'></script>
+</head>
+
+<body>
+  <!-- Uhh maybe move this to CSS. -->
+  <div class="bg">
+    <nav class="navbar navbar-custom navbar-expand-lg">
+      <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="m-0 order-0 order-md-1 position-absolute main-logo">
+        <a class="mx-auto" href="#">
+          <img src="Files/CSS/files/LOGO2.png" class="rounded-circle" width="400">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+        <ul class="navbar-nav mr-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid container-img">
+      <div class="row">
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(1)" id="p1">
+            <img src="Files/CSS/files/cuadradas/3-ossigmes.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-1'>
+          </div>
+          <p class="">OSSIGMES</p>
+        </div>
+        <div class="col text-center">
+          <div class='product-holder' onclick="show(2)" id="p2">
+            <img src="Files/CSS/files/cuadradas/22-xvanessaw.jpeg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-2'>
+          </div>
+          <p class="">xVANESSAW</p>
+        </div>
+        <div class="col text-center">
+          <div class='product-holder' onclick="show(3)" id="p3">
+            <img src="Files/CSS/files/cuadradas/1-jennifer123x.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-3'>
+          </div>
+          <p class="">JENNIFER123x</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(4)" id="p4">
+            <img src="Files/CSS/files/cuadradas/5-carlosniel_.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-4'>
+          </div>
+          <p class="">CARLOSNIEL_</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(5)" id="p5">
+            <img src="Files/CSS/files/cuadradas/7-lapaspi.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-5'>
+          </div>
+          <p class="">LAPASPI</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(6)" id="p6">
+            <img src="Files/CSS/files/cuadradas/8-iamcarolinasv.jpeg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-6'>
+          </div>
+          <p class="">IAMCAROLINASV</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(7)" id="p7">
+            <img src="Files/CSS/files/cuadradas/9-karyoly.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-7'>
+          </div>
+          <p class="">KARYOLY</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(8)" id="p8">
+            <img src="Files/CSS/files/cuadradas/4-pisteosaurio.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-8'>
+          </div>
+          <p class="">PISTEOSAURIO</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(9)" id="p9">
+            <img src="Files/CSS/files/cuadradas/10-lorenalunatic.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-9'>
+          </div>
+          <p class="">LORENALUNATIC</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(10)" id="p10">
+            <img src="Files/CSS/files/cuadradas/6-bekycat.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-10'>
+          </div>
+          <p class="">BEKYCAT</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(11)" id="p11">
+            <img src="Files/CSS/files/cuadradas/15-albertowake.jpg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-11'>
+          </div>
+          <p class="">ALBERTOWAKE</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(12)" id="p12">
+            <img src="Files/CSS/files/cuadradas/12-korechann.jpg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-12'>
+          </div>
+          <p class="">KORECHANN</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(13)" id="p13">
+            <img src="Files/CSS/files/cuadradas/11-meliiuchiha.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-13'>
+          </div>
+          <p class="">MELII UCHIHA</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(14)" id="p14">
+            <img src="Files/CSS/files/cuadradas/13-elmalteada.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-14'>
+          </div>
+          <p class="">ELMALTEADA</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(15)" id="p15">
+            <img src="Files/CSS/files/cuadradas/14-mervill28.jpg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-15'>
+          </div>
+          <p class="">MERVILL28</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(16)" id="p16">
+            <img src="Files/CSS/files/cuadradas/16-vantter.jpeg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-16'>
+          </div>
+          <p class="">VANTTER</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(17)" id="p17">
+            <img src="Files/CSS/files/cuadradas/2-annywhitew.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-17'>
+          </div>
+          <p class="">ANNYWHITEW</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(18)" id="p18">
+            <img src="Files/CSS/files/cuadradas/17-galavbon.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-18'>
+          </div>
+          <p class="">GALAVBON</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(19)" id="p19">
+            <img src="Files/CSS/files/cuadradas/18-adriianeut.jpg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-19'>
+          </div>
+          <p class="">ADRIIANEUT</p>
+        </div>
+        <div class="col text-center">
+
+          <div class='product-holder' onclick="show(20)" id="p20">
+            <img src="Files/CSS/files/cuadradas/21-paudrisima.jpg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-20'>
+          </div>
+          <p class="">PAUDRISIMA</p>
+        </div>
+      </div>
+      <!-- Ultima fila -->
+      <div class="row">
+        <div class="col v2 text-center">
+
+          <div class='product-holder-v2' onclick="show(21)" id="p21">
+            <img src="Files/CSS/files/cuadradas/23-dreabello.jpg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-21'>
+          </div>
+          <p class="">DREABELLO</p>
+        </div>
+        <div class="col v2 text-center">
+
+          <div class='product-holder-v2' onclick="show(22)" id="p22">
+            <img src="Files/CSS/files/cuadradas/19-xaladytatto.png" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-22'>
+          </div>
+          <p class="">XALYLADYTATTOO</p>
+        </div>
+        <div class="col v2 text-center">
+
+          <div class='product-holder-v2' onclick="show(23)" id="p23">
+            <img src="Files/CSS/files/cuadradas/20-rubscohen.jpg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-23'>
+          </div>
+          <p class="">RUBSCOHEN</p>
+        </div>
+        <div class="col v2 text-center">
+
+          <div class='product-holder-v2' onclick="show(24)" id="p24">
+            <img src="Files/CSS/files/cuadradas/24-CharlyFTW.jpg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-24'>
+          </div>
+          <p class="">ELCHARLYFTW</p>
+        </div>
+        <div class="col v2 text-center">
+
+          <div class='product-holder-v2' onclick="show(25)" id="p25">
+            <img src="Files/CSS/files/cuadradas/25-NattPitt.jpg" class="filter" width="150" height="150"
+              class='product-image'>
+            <img src="Files/CSS/files/equis.png" width="100px" height="100px" class='plus-image' id='equis-25'>
+          </div>
+          <p class="">NATTPITT</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer">
+      <a href="https://twitch.tv/mjmartinezvt" target="_blank">
+        <p>PÁGINA HECHA POR: MJMARTINEZVT <i class="fa fa-twitch"></i> </p>
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>

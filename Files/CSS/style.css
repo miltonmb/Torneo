@@ -1,0 +1,81 @@
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("files/fondosincopa.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.navbar-custom {
+    background-color: #8000ff;
+} 
+.main-logo {
+  left: 45%;
+  top: -55px;
+  margin-left: -100px !important;
+}
+
+.navbar-collapse:first-child {
+  padding-right: 90px;
+}
+
+.navbar-collapse:last-child {
+  padding-left: 90px;
+}
+
+.container-img{
+  margin-top: 200px;
+}
+
+.row{
+  margin-bottom: 1%;
+}
+
+.filter{
+  border-radius:5%;
+  border:solid #fd72bc 4px ;
+}
+
+.plus-image {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -50px;
+    display: none;
+}
+
+.footer p{
+  font-size: 23px;
+  transition: font-size .5s;
+}
+p{
+  font-size: 20px;
+  font-family: Anton;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.col.v2{
+  max-width: 192px;
+}
+
+.footer p:hover{
+  font-size: 25px;
+  color: #68d8fd;
+}
+
+a:hover{
+  text-decoration: none;
+}
